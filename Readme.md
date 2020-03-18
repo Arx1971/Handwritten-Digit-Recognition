@@ -13,7 +13,7 @@ Population are devide into K-groups and then use random sampling to select Indiv
 5. Use the average testing accuracy as the estimate of out-of-sample accuracy.
 
 ##### Diagram For K-Fold cross Validation
-<img src="https://github.com/Arx1971/Handwritten-Digit-Recognition/blob/master/Screenshot%20from%202020-03-18%2003-59-12.png"
+<img src="https://github.com/Arx1971/Handwritten-Digit-Recognition/blob/master/k-Fold-cross-validation.png"
      alt="TPR_VS_FPR"
      style="float: left; margin-right: 10px;" />
 
