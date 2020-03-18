@@ -6,19 +6,17 @@ Population are devide into K-groups and then use random sampling to select Indiv
 
 #### K-Fold Cross Validation
 
-	<ol>
-		<li> Split the dataset into K equal partitions (or "folds").</li>
-		<li> Use fold 1 as the testing set and the union of the other folds as the training set.</li>
-		<li> Calculate testing accuracy.</li>
-		<li> Repeat steps 2 and 3 K times, using a different fold as the testing set each time.</li>
-		<li> Use the average testing accuracy as the estimate of out-of-sample accuracy.</li>
-	</ol>
+1. Split the dataset into K equal partitions (or "folds").
+2. Use fold 1 as the testing set and the union of the other folds as the training set.
+3. Calculate testing accuracy.
+4. Repeat steps 2 and 3 K times, using a different fold as the testing set each time.
+5. Use the average testing accuracy as the estimate of out-of-sample accuracy.
 
 ##### Diagram For K-Fold cross Validation
 <img src="https://github.com/Arx1971/Handwritten-Digit-Recognition/blob/master/Screenshot%20from%202020-03-18%2003-59-12.png"
      alt="TPR_VS_FPR"
      style="float: left; margin-right: 10px;" />
-     
+
 #### AUC - ROC
 
 AUC - ROC curve is a performance measurement for classicication problem. a varuous thresholds setting.s ROC is probability curve and AUC represetns degree of measure of separability. It tells how much model is capable of distinghuishing between classes. Higher the AUC, btter the model is at predictiong 0s as 0s and 1s as 1s. The ROC curve is plotted with TPR against the DPR where TPR is on y-axis and FPR is on the x-axis.
